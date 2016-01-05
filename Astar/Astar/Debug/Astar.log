@@ -1,0 +1,33 @@
+﻿生成启动时间为 2016/1/5 21:17:34。
+     1>项目“C:\Users\lsy\Documents\GitHub\a-navigator\Astar\Astar\Astar.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Astar.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Astar.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Astar.cpp AstarDoc.cpp AstarView.cpp findingstate.cpp MainFrm.cpp pathfinder.cpp
+         pathfinder.cpp
+         MainFrm.cpp
+         findingstate.cpp
+         AstarView.cpp
+     1>c:\users\lsy\documents\github\a-navigator\astar\astar\astarview.cpp(37): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+                 命令行参数: 参见前面的“_CRT_SECURE_NO_WARNINGS”定义
+         AstarDoc.cpp
+         Astar.cpp
+         正在生成代码...
+     1>c:\users\lsy\documents\github\a-navigator\astar\astar\astarview.cpp(416): warning C4715: “getpointleft”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\Astar.res" Astar.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lsy\Documents\GitHub\a-navigator\Astar\Debug\Astar.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\lsy\Documents\GitHub\a-navigator\Astar\Debug\Astar.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lsy\Documents\GitHub\a-navigator\Astar\Debug\Astar.lib" /MACHINE:X86 Debug\Astar.res
+         Debug\Astar.obj
+         Debug\AstarDoc.obj
+         Debug\AstarView.obj
+         Debug\findingstate.obj
+         Debug\MainFrm.obj
+         Debug\pathfinder.obj
+         Debug\stdafx.obj
+         Astar.vcxproj -> C:\Users\lsy\Documents\GitHub\a-navigator\Astar\Debug\Astar.exe
+     1>已完成生成项目“C:\Users\lsy\Documents\GitHub\a-navigator\Astar\Astar\Astar.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:24.17
